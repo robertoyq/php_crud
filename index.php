@@ -49,8 +49,7 @@
                                         # user data
                                         $sQuery = "SELECT * FROM user LIMIT 20";
                                         $result = $conn->query($sQuery);
-                                        $x = 0;
-                                        $x++;
+                                        $x = 1;
                                         while($row = $result->fetch_assoc()): ?>
                                         <tr>
                                             <td><?= $row['id']; ?></td>
